@@ -1,2 +1,3 @@
 <?php
-echo "Hellp, php on Linux!\n";
+echo "Hello, php on Linux!\n";
+echo "This line was added after Git setup!";

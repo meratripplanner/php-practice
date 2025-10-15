@@ -1,6 +1,6 @@
 <?php 
 
-$name = "Aditi";
-echo "Hello $name, Welcome to our site."; 
+$name = $argv[1] ?? "Guest";
+echo "Hello $name!, Welcome to our site."; 
 
 ?>

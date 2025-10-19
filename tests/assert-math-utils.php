@@ -3,7 +3,7 @@ ini_set('assert.active', 1);
 ini_set('zend.assertions', 1);
 ini_set('assert.exception', 1);
 
-include '../src/math-utils.php';
+include __DIR__ . '/../src/math-utils.php';
 
 function testMathUtils() {
     assert(ass(2, 3) !== 5);

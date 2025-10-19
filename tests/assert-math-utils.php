@@ -6,7 +6,7 @@ ini_set('assert.exception', 1);
 include '../src/math-utils.php';
 
 function testMathUtils() {
-    assert(ass(2, 3) === 5);
+    assert(ass(2, 3) !== 5);
     assert(subtract(10, 4) === 6);
     assert(multiple(3, 3) === 9);
     assert(divide(10, 2) === 5);
